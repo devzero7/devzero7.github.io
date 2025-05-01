@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
+    <title>Shubham Pawade - Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,13 +13,12 @@
 <body>
     <nav class="navbar">
         <div class="nav-content">
-            <div class="logo">Portfolio</div>
+            <div class="logo">Shubham Pawade</div>
             <ul class="nav-links">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#experience">Experience</a></li>
-                <li><a href="#certifications">Certifications</a></li>
                 <li><a href="#achievements">Achievements</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -27,14 +26,54 @@
     </nav>
 
     <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="hero-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+            </div>
+        </div>
         <div class="hero-content">
-            <h1>Hi, I'm <span class="highlight">Your Name</span></h1>
-            <h2>Full Stack Developer</h2>
-            <p>Creating innovative solutions through code</p>
-            <a href="#contact" class="cta-button">
-                Get in Touch
-                <i class="fas fa-arrow-right"></i>
-            </a>
+            <div class="hero-left">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="greeting">Hi, I'm</span>
+                        <span class="name">Shubham Pawade</span>
+                        <span class="role">Full Stack Developer</span>
+                    </h1>
+                    <p class="hero-description">Crafting digital experiences with code and creativity. Currently pursuing Bachelor of Technology in Computer Software Engineering at MIT Academy of Engineering.</p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="cta-button primary">
+                            <span>Get in Touch</span>
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                        <a href="#projects" class="cta-button secondary">
+                            <span>View Projects</span>
+                            <i class="fas fa-code"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/ShubhamSPawde" class="social-link" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/shubhampawade" class="social-link" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-right">
+                <div class="profile-container">
+                    <div class="profile-frame">
+                        <img src="https://avatars.githubusercontent.com/u/your-github-id" alt="Shubham Pawade" class="profile-pic">
+                    </div>
+                    <div class="profile-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -42,19 +81,26 @@
         <h2>About Me</h2>
         <div class="about-content">
             <div class="about-text">
-                <p>I am a passionate developer with expertise in web development. I love creating efficient, scalable, and user-friendly applications.</p>
+                <p>I am a passionate developer with expertise in full-stack development and machine learning. I love creating efficient, scalable, and user-friendly applications.</p>
                 <div class="skills">
-                    <h3>Skills</h3>
+                    <h3>Technical Skills</h3>
                     <div class="skill-tags">
+                        <span>C++</span>
+                        <span>C</span>
+                        <span>Python</span>
                         <span>HTML</span>
                         <span>CSS</span>
                         <span>JavaScript</span>
                         <span>React</span>
                         <span>Node.js</span>
-                        <span>Python</span>
-                        <span>TypeScript</span>
-                        <span>Next.js</span>
-                        <span>Tailwind CSS</span>
+                        <span>Svelte</span>
+                        <span>SvelteKit</span>
+                        <span>Git</span>
+                        <span>VS Code</span>
+                        <span>Sklearn</span>
+                        <span>Pandas</span>
+                        <span>NumPy</span>
+                        <span>Matplotlib</span>
                     </div>
                 </div>
             </div>
@@ -65,19 +111,65 @@
         <h2>Projects</h2>
         <div class="project-grid">
             <div class="project-card">
-                <h3>Project 1</h3>
-                <p>Description of your first project and the technologies used.</p>
-                <a href="#" class="project-link">View Project</a>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Shetkari Sahayak">
+                </div>
+                <div class="project-content">
+                    <h3>Shetkari Sahayak</h3>
+                    <p>Developed a plant disease detection system using ResNet-50, deployed on AWS. Integrated Flask API with MongoDB, multilingual support, and offline functionality for Android. Implemented disease spread visualization and built a chatbot for crop disease queries.</p>
+                    <div class="project-tech">
+                        <span>Deep Learning</span>
+                        <span>Flask</span>
+                        <span>MongoDB</span>
+                        <span>AWS</span>
+                    </div>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
             </div>
             <div class="project-card">
-                <h3>Project 2</h3>
-                <p>Description of your second project and the technologies used.</p>
-                <a href="#" class="project-link">View Project</a>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Heart Disease Detection">
+                </div>
+                <div class="project-content">
+                    <h3>Heart Disease Detection</h3>
+                    <p>Developing a machine learning model for heart disease detection using diverse datasets. Implementing advanced feature selection and evaluation techniques to enhance accuracy with a user-friendly interface.</p>
+                    <div class="project-tech">
+                        <span>Machine Learning</span>
+                        <span>Python</span>
+                        <span>Scikit-learn</span>
+                    </div>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
             </div>
             <div class="project-card">
-                <h3>Project 3</h3>
-                <p>Description of your third project and the technologies used.</p>
-                <a href="#" class="project-link">View Project</a>
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Camera Filter Web Application">
+                </div>
+                <div class="project-content">
+                    <h3>Camera Filter Web Application</h3>
+                    <p>Built a web application for real-time photo editing with advanced filtering options using Svelte and SvelteKit. Deployed on Developerstar.com with iterative improvements based on user feedback.</p>
+                    <div class="project-tech">
+                        <span>Svelte</span>
+                        <span>SvelteKit</span>
+                        <span>JavaScript</span>
+                    </div>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Files Organizer Tool">
+                </div>
+                <div class="project-content">
+                    <h3>Files Organizer Tool</h3>
+                    <p>Engineered a command-line tool to categorize and organize over 1,000 files automatically. Leveraged asynchronous file handling in Node.js to enhance performance by 40%.</p>
+                    <div class="project-tech">
+                        <span>Node.js</span>
+                        <span>JavaScript</span>
+                        <span>CLI</span>
+                    </div>
+                    <a href="#" class="project-link">View Project</a>
+                </div>
             </div>
         </div>
     </section>
@@ -86,32 +178,32 @@
         <h2>Experience</h2>
         <div class="timeline">
             <div class="timeline-item">
-                <h3>Company Name</h3>
-                <p class="date">2022 - Present</p>
-                <p>Position: Software Developer</p>
-                <p>Description of your role and responsibilities.</p>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>Meta Craftlab</h3>
+                        <span class="timeline-date">June 2024 - July 2024</span>
+                    </div>
+                    <p class="timeline-position">Developer Intern (Full Stack)</p>
+                    <ul class="timeline-details">
+                        <li>Developed applications using Svelte and SvelteKit, achieving 15% improvement in UI performance</li>
+                        <li>Streamlined workflows using Git and GitHub, reducing merge conflicts by 30%</li>
+                        <li>Worked with Postman API platforms for efficient testing and debugging</li>
+                    </ul>
+                </div>
             </div>
             <div class="timeline-item">
-                <h3>Previous Company</h3>
-                <p class="date">2020 - 2022</p>
-                <p>Position: Junior Developer</p>
-                <p>Description of your role and responsibilities.</p>
-            </div>
-        </div>
-    </section>
-
-    <section id="certifications" class="certifications">
-        <h2>Certifications</h2>
-        <div class="cert-grid">
-            <div class="cert-card">
-                <h3>Certification Name</h3>
-                <p>Issuing Organization</p>
-                <p class="date">Year</p>
-            </div>
-            <div class="cert-card">
-                <h3>Certification Name</h3>
-                <p>Issuing Organization</p>
-                <p class="date">Year</p>
+                <div class="timeline-content">
+                    <div class="timeline-header">
+                        <h3>Cisco Network Academy</h3>
+                        <span class="timeline-date">May 2024 - July 2024</span>
+                    </div>
+                    <p class="timeline-position">Intern</p>
+                    <ul class="timeline-details">
+                        <li>Completed Cisco AICTE virtual internship program in cybersecurity</li>
+                        <li>Acquired hands-on experience with cybersecurity tools and best practices</li>
+                        <li>Secured mock systems against simulated threats</li>
+                    </ul>
+                </div>
             </div>
         </div>
     </section>
@@ -121,13 +213,18 @@
         <div class="achievement-grid">
             <div class="achievement-card">
                 <i class="fas fa-trophy"></i>
-                <h3>Achievement 1</h3>
-                <p>Description of your achievement</p>
+                <h3>Programming Excellence</h3>
+                <p>Rank 1 in MaTPO Programming Idol-2024 and 2nd position in Impetus competition at PICT INC 2025</p>
             </div>
             <div class="achievement-card">
                 <i class="fas fa-medal"></i>
-                <h3>Achievement 2</h3>
-                <p>Description of your achievement</p>
+                <h3>Project Recognition</h3>
+                <p>2nd position in Technodium 2025 and Finalist in PICT Techfiesta Hackathon 2025</p>
+            </div>
+            <div class="achievement-card">
+                <i class="fas fa-star"></i>
+                <h3>Coding Ratings</h3>
+                <p>2-star rating on CodeChef in C++ and 5-star rating on HackerRank in both C++ and Python</p>
             </div>
         </div>
     </section>
@@ -138,27 +235,22 @@
             <div class="contact-info">
                 <div class="contact-item">
                     <i class="fas fa-envelope"></i>
-                    <p>your.email@example.com</p>
-                </div>
-                <div class="contact-item">
-                    <i class="fas fa-phone"></i>
-                    <p>+1 234 567 890</p>
+                    <p>shubhamspawade@gmail.com</p>
                 </div>
                 <div class="contact-item">
                     <i class="fas fa-map-marker-alt"></i>
-                    <p>Your Location</p>
+                    <p>MIT Academy of Engineering, Alandi, Pune</p>
                 </div>
             </div>
             <div class="social-links">
-                <a href="#" class="social-link"><i class="fab fa-github"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
-                <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/ShubhamSPawde" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com/in/shubhampawade" class="social-link"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
     </section>
 
     <footer>
-        <p>&copy; 2025 Your Name. All rights reserved.</p>
+        <p>&copy; 2025 Shubham Pawade. All rights reserved.</p>
     </footer>
 
     <script>
